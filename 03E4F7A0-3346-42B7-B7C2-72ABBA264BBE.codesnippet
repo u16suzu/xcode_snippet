@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uibutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImage *btn_img = [UIImage imageNamed:&lt;#file_name#&gt;];
+UIButton *custom_btn = [[UIButton alloc] initWithFrame:CGRectMake(&lt;#x#&gt;,&lt;#y#&gt;,60,60)];
+if(![UIScreen is4inch]) [custom_btn setYOrigin:&lt;#y#&gt;];
+[custom_btn setTitle:&lt;#Name#&gt; forState:UIControlStateNormal];
+    [custom_btn setBackgroundImage:btn_img forState:UIControlStateNormal];
+    [custom_btn addEventHandler:^(id sender) {
+    } forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:custom_btn];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>03E4F7A0-3346-42B7-B7C2-72ABBA264BBE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Custom button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Custom Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
