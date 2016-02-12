@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sync</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0)) { ()  -&gt; Void in
+            do {
+                let url = NSURL(string: "&lt;#url_string#&gt;")
+                let request =
+                NSURLRequest(URL: url!, cachePolicy: NSURLRequestCachePolicy.UseProtocolCachePolicy, timeoutInterval: 0.5)
+
+                let responseData:NSData = try NSURLConnection.sendSynchronousRequest(request, returningResponse: nil)
+                let responseString:String = NSString(data:responseData, encoding: 1)! as String
+                print(responseString)
+            }
+            catch {
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5CF43D39-BB72-4D62-BD12-706CF1D579EA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>同期通信をする</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>network - sync</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
