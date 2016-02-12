@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>switch</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        switch( &lt;#val#&gt; ){
+        case &lt;#case1#&gt;:
+            break
+        case &lt;#case2#&gt;:
+            break
+        case &lt;#case3#&gt;:
+            break
+        default:
+            break
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1CA1E157-A4CC-4512-AB19-0D96142FAE00</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>switch文を定義</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>switch</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

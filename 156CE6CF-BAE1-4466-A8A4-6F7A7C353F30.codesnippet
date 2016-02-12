@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>errortype</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>enum &lt;#MyError#&gt; : ErrorType {
+    case &lt;#Error1#&gt;
+    case &lt;#Error2#&gt;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>156CE6CF-BAE1-4466-A8A4-6F7A7C353F30</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CustomErrorType</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ErrorTypeを定義する</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

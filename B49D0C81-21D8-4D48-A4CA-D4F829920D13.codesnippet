@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>try</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        do {
+            try &lt;#method#&gt;()
+        }
+        catch &lt;#MyError.InvalidArg#&gt; {
+        }
+        catch &lt;#MyError.InvalidMethodName#&gt;{
+        }
+        catch {
+        }
+        defer {
+            print("必ず行われる処理")
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B49D0C81-21D8-4D48-A4CA-D4F829920D13</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>do-try-catchを定義</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
